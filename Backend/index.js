@@ -12,10 +12,10 @@ app.use(express.json())
 
 
 const connection=mysql.createConnection({
-    host:'localhost',
-    user:'root',
-    password:'',
-    database:'clientsdb'
+    host:process.env.DB_HOST,
+    user:process.env.DB_USERNAME,
+    password:process.env.DB_PASSWORD,
+    database:process.env.DB_DBNAME
 });
 
 
@@ -29,7 +29,7 @@ app.post("/client",(req,res)=>{
     const values=[name,email,phone,message]
 
     
-    connection.query(`INSERT INTO client (name,email,phone,message) Values(?,?,?,?)`,values,(err,data)=>{
+    connection.query(`INSERT INTO clients (name,email,phone,message) Values(?,?,?,?)`,values,(err,data)=>{
         if (err){
             console.log(err)
         }
