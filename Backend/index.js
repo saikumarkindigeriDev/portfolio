@@ -31,6 +31,7 @@ app.post("/client",(req,res)=>{
     
     connection.query(`INSERT INTO clients (name,email,phone,message) Values(?,?,?,?)`,values,(err,data)=>{
         if (err){
+            return res.json("Form failed to Submit!")
             console.log(err)
         }
         console.log("Form Submitted Successfully.")
