@@ -137,6 +137,12 @@
   display: none;
 }
 
+.sai-heading{
+  font-size: 35px;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
 @media screen and (max-width:600px){
 
 
@@ -210,6 +216,8 @@
     font-family: "Arial";
     font-weight: 300;
   }
+
+
 .footer{
   display: flex;
   flex-direction: column;
