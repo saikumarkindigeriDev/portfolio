@@ -93,7 +93,7 @@ class Contact extends Component{
         const response=await fetch(url,options) 
         const data=await response.json() 
         if (response.ok){
-            this.setState({data:data,fetched:true})
+            this.setState({data:data,fetched:true,name:"",email:"",phone:'',message:''})
         }
 
        }
