@@ -1,0 +1,168 @@
+
+.image{
+    height: 400px;
+    width: 400px; 
+    margin-right: 30px;
+  }
+  
+  
+  .social-handles{
+    display: flex;   
+    margin-top: 10px; 
+    
+    
+    
+  
+  }
+
+  .buttons-container{
+    display: flex;
+    
+      justify-content: center;
+   
+    
+  }
+
+.icon{
+    height:35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+  .button-download{
+    background-color: transparent;
+    border: 0px solid yellowgreen ; 
+    border-radius: 15px; 
+    height: 40px; 
+    width: 110px; 
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: blueviolet;  
+    color: white;
+  } 
+
+  .buttons{
+    background-color: transparent;
+    border: 1px solid yellowgreen ; 
+    border-radius: 15px; 
+    height: 40px; 
+    width: 110px; 
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .buttons:hover{
+    background-color:yellowgreen ; 
+    color: white; 
+    border: none;
+  }
+  
+  .home-container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 690px; 
+    padding: 30px;
+    
+  
+  
+  }
+
+  .right-section{
+    margin-left: 30px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bio{
+    text-align: center;
+    align-self: center;
+  }
+
+
+  .greeting{
+    font-family: "Roboto";
+    font-size: 19px; 
+    font-weight: bold;
+  }
+
+  .name{
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+
+  .profession{
+    font-family: "Roboto";
+    font-size: 28px;
+  }
+
+
+
+  @media screen and (max-width:600px){
+    .home-container{
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .image{
+      width: 200px;
+      height: 200px; 
+      align-self: center;
+      display: flex; 
+      margin-left: 80px;
+      
+    } 
+
+    .greeting{
+      font-size: 17px;
+
+    }
+
+    .name{
+      font-size: 30px;
+
+    }
+
+
+    .profession{
+
+      font-size: 28px;
+      color: grey;
+    }
+
+
+    .buttons{
+      background-color: transparent;
+      border: 1px solid yellowgreen ; 
+      border-radius: 15px; 
+      height: 40px; 
+      width: 110px; 
+      margin-right: 10px;
+      cursor: pointer;
+    } 
+
+    .buttons-container{
+      justify-content: center;
+    }
+  
+    .buttons:hover{
+      background-color: blueviolet; 
+      color: white; 
+      border: none;
+    }
+
+
+    .bio{
+      align-self: center;
+      
+     
+    
+    }
+  }

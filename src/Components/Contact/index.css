@@ -1,0 +1,215 @@
+.contact-para{
+    font-size: 30px;
+    font-family: "Roboto"; 
+    text-align: center;
+}
+
+
+.contact-heading{
+    font-size: 50px;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+
+.contact-container{
+   
+    display: flex;
+    
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 22px; 
+   
+
+    
+}
+
+.first-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-container{
+    display: flex; 
+  
+    border: 1px solid grey; 
+    border-radius: 30px; 
+   
+    padding: 20px; 
+    flex-direction: column;
+}
+
+.down-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.form{
+    display: flex;
+}
+
+.mail-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-container{
+    height: 25px;
+    width: 400px;
+   
+    border-radius: 30px;
+    margin: 20px; 
+    border: 1px solid grey; 
+   text-align: flex-start; 
+   padding: 15px;
+}
+
+.input-container-textarea{
+    height: 230px;
+    width: 400px;
+   
+    border-radius: 30px;
+    margin: 20px; 
+    border: 1px solid grey; 
+   text-align: flex-start; 
+   padding: 15px;
+}
+
+.submit-button{ 
+    width: 210px;
+    font-family: "Roboto";
+    font-size: 14px;
+    height: 50px;
+    border-radius: 30px;
+    width: 100px;
+    background-color: grey;
+    border: none; 
+    margin-left: 20px; 
+    text-align: center;
+    align-self: start;
+    color: white;
+    cursor: pointer; 
+    
+}
+
+.submit-button:hover{
+    background-color: blueviolet; 
+    border: none;
+}
+
+
+.mail{
+    font-family: "Roboto";
+}
+
+
+.disappearing-text {
+    animation: disappearAnimation 5s forwards; /* Adjust the duration (5s) as needed */
+    color:blueviolet; /* Adjust color as needed */
+    font-family: 'Arial';
+    font-size: 20px;
+    text-align: center; 
+    
+  }
+
+
+  .status-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @keyframes disappearAnimation {
+    to {
+      opacity: 0;
+     
+    }
+  }
+
+
+.mail-icon{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.check-icon{
+    background: transparent;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.validation{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: red; 
+    text-align: start; 
+    margin-left: 20px;
+}
+
+@media screen and (max-width:600px){
+    .form-container{
+        display: flex;
+        width: 80%;
+        border: 1px solid grey; 
+        border-radius: 30px; 
+        flex-direction: column;
+        height: 780px;
+       
+        
+    }
+
+
+    .input-container{
+        width: 80%;
+    }
+
+    .input-container-textarea{
+        width: 80%;
+    }
+
+    .mail-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-container{
+        height: 1000px;
+        margin-top: 30px;
+    }
+
+    .contact-para{
+        font-size: 25px;
+        font-family: "Roboto"; 
+        text-align: center;
+    }
+    
+    
+    .contact-heading{
+        font-size: 42px;
+        font-family: "Roboto";
+        text-align: center;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .submit-button{
+        align-self: center;
+    }
+    
+}
