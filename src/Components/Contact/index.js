@@ -87,7 +87,7 @@ class Contact extends Component{
               },
               body: JSON.stringify(clientData)
         } 
-       const url='http://localhost:2000/client' 
+       const url='https://port-backend-api.vercel.app/client' 
 
        if (name!=='',email!=='',phone!=='',message!==''){
         const response=await fetch(url,options) 
