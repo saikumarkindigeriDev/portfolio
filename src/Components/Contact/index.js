@@ -89,9 +89,10 @@ class Contact extends Component{
         } 
        const url='https://port-backend-me61.onrender.com/client' 
 
-       if (name!=='',email!=='',phone!=='',message!==''){
-        const response=await fetch(url,options) 
-        const data=await response.json() 
+       if (name!==''&& email!==''&& phone!==''&& message!==''){
+        const response= await fetch(url,options) 
+        const data=await response.json()  
+        console.log(data)
         if (response.ok){
             this.setState({data:data,fetched:true,name:"",email:"",phone:'',message:''})
         }

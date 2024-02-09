@@ -114,10 +114,14 @@
 
 .disappearing-text {
     animation: disappearAnimation 5s forwards; /* Adjust the duration (5s) as needed */
-    color:blueviolet; /* Adjust color as needed */
-    font-family: 'Arial';
-    font-size: 20px;
+    color:yellow; /* Adjust color as needed */
+    font-family: 'Roboto';
+    font-size: 30px;
     text-align: center; 
+    font-weight: bold;
+     
+    border-radius: 10px; 
+
     
   }
 
