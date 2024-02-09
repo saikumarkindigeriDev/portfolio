@@ -87,7 +87,7 @@ class Contact extends Component{
               },
               body: JSON.stringify(clientData)
         } 
-       const url='https://last-back-5t2u.onrender.com/client' 
+       const url='https://port-backend-me61.onrender.com/client' 
 
        if (name!=='',email!=='',phone!=='',message!==''){
         const response=await fetch(url,options) 
