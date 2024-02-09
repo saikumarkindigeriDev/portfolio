@@ -114,9 +114,9 @@
 
 .disappearing-text {
     animation: disappearAnimation 5s forwards; /* Adjust the duration (5s) as needed */
-    color:yellow; /* Adjust color as needed */
+    color: darkred; /* Adjust color as needed */
     font-family: 'Roboto';
-    font-size: 30px;
+    font-size: 20px;
     text-align: center; 
     font-weight: bold;
      
@@ -151,6 +151,7 @@
     height: 20px;
     width: 20px;
     margin-right: 5px;
+    color: darkred;
 }
 
 .validation{
