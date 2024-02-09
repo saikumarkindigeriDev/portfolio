@@ -87,7 +87,7 @@ class Contact extends Component{
               },
               body: JSON.stringify(clientData)
         } 
-       const url='https://port-backend-api.vercel.app/client' 
+       const url='https://last-back-5t2u.onrender.com/client' 
 
        if (name!=='',email!=='',phone!=='',message!==''){
         const response=await fetch(url,options) 
